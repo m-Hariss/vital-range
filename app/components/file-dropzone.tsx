@@ -2,8 +2,8 @@
 
 import { useRef } from "react";
 import { UploadCloud, X, FileText } from "lucide-react";
-import { Button } from "@/app/components/ui/button";
-import { cn } from "@/app/lib/utils";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { AcceptedFileType } from "@/app/enums/file-type";
 import { MAX_FILES_PER_REQUEST, MAX_FILE_SIZE_BYTES } from "@/app/constants/openai";
 import { formatFileSize } from "@/app/lib/format";
